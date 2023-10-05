@@ -1,6 +1,6 @@
 from flask import Flask,render_template,jsonify
 
-app = Flask(__name__,template_folder="C:\\Users\\Kishore\\Documents\\Backend")
+app = Flask(__name__)
 
 jobs =[
     {
